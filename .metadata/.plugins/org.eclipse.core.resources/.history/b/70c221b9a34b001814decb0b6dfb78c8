@@ -1,0 +1,23 @@
+package bankApp;
+
+public class Bank {
+	String name;
+	String phone;
+	String email;
+	String balance;
+	String deposit;
+	
+	Bank(){
+		System.out.println("New user has been created!");
+	}
+	
+	void walk() {
+		System.out.println(name + " is walking ");
+	}
+	
+	
+
+}
+
+
+

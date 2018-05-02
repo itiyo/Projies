@@ -1,0 +1,36 @@
+package bankApp;
+
+public class Bank {
+	String name;
+	String phone;
+	String email;
+	double balance;
+	double deposit;
+	
+	Bank(){
+		System.out.println("New user has been created!");
+	}
+	
+	void walk() {
+		System.out.println(name + " is walking ");
+	}
+	
+	void dep(String name, double deposit) {
+		String msg;
+		if (deposit < 1000) {
+			msg = "Deposit needs to more than £1000";
+		}
+		else
+			msg = "Thank you for your deposit";
+		System.out.println(msg);
+		
+	}
+	
+	
+	
+	
+
+}
+
+
+

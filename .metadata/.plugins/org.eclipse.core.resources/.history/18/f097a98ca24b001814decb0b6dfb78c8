@@ -1,0 +1,11 @@
+package bankApp;
+
+public class BankUser {
+	
+	public static void main(String[] args) {
+		Bank user1 = new Bank();
+		user1.name = "Ali";
+		user1.walk();
+	}
+
+}

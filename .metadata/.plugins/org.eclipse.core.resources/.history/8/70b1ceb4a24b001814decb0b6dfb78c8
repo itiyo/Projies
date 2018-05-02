@@ -1,0 +1,19 @@
+package bankApp;
+
+public class Bank {
+	String name;
+	String phone;
+	String email;
+	String balance;
+	String deposit;
+	
+	void walk() {
+		System.out.println(name + " is walking ");
+	}
+	
+	
+
+}
+
+
+

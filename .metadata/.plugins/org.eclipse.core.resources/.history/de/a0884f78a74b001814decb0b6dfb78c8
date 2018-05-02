@@ -1,0 +1,12 @@
+package bankApp;
+
+public class BankType extends Bank{
+	String type = "Saving account";
+	
+	void update(){
+		
+		System.out.println("Account has been updated!");
+		
+	}
+
+}
